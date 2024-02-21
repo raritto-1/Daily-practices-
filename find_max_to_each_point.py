@@ -11,7 +11,6 @@ for i in range(n):
     #find the max for the each point of the list from the left
     
 
-
 max_height = 0
 for i in range(n - 1, -1, -1):
     right_max[i] = max_height
